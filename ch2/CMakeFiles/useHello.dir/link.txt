@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/useHello.dir/useHello.cpp.o -o useHello  -Wl,-rpath,/workspace/SLAM/ch2 libhello_shared.so 
