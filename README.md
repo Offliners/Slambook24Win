@@ -1,5 +1,5 @@
 # SLAM
-code of Slambook 1st edition
+code of 14 lectures on visual SLAM
 
 ## Contents
 * [Chapter 2 : 初識SLAM](ch2/ch2.md)
