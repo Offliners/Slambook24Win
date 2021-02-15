@@ -10,5 +10,7 @@ sudo apt-get install libeigen3-dev
 * [eigenMatrix.cpp](useEigen/eigenMatrix.cpp)
 
 #### useGeometry
+* [CMakeLists.txt](useGeometry/CMakeLists.txt)
 
 #### visualizeGeometry
+* [CMakeLists.txt](visualizeGeometry/CMakeLists.txt)
