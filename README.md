@@ -7,4 +7,4 @@ code of 14 lectures on visual SLAM
 ## Reference
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
 
-![Reference](https://github.com/Offliners/SLAM/blob/main/Reference.PNG)
+![Reference](https://github.com/Offliners/SLAM/blob/main/reference.png)
