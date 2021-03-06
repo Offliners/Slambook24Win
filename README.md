@@ -1,5 +1,5 @@
 # SLAM
-code of 14 lectures on visual SLAM
+code of 14 lectures on visual SLAM 2nd
 
 ## Contents
 * [Chapter 2 : 初識SLAM](ch2/ch2.md)
