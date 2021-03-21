@@ -1,3 +1,0 @@
-/home/offliner/Desktop/slam/ch3/useGeometry/CMakeFiles/edit_cache.dir
-/home/offliner/Desktop/slam/ch3/useGeometry/CMakeFiles/rebuild_cache.dir
-/home/offliner/Desktop/slam/ch3/useGeometry/CMakeFiles/eigenGeometry.dir
