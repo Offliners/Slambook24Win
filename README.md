@@ -5,6 +5,14 @@ code of 14 lectures on visual SLAM 2nd
 * [Chapter 2 : 初識SLAM](ch2/ch2.md)
 * [Chapter 3 : 三維空間剛體運動](ch3/ch3.md)
 
+## Usage
+```shell
+mkdir build
+cd build
+cmake -G "Unix Makefiles" ../
+make
+```
+
 ## Environment
 |IDE|`Visual Studio Code`|
 |-|-|
