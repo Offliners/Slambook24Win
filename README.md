@@ -20,6 +20,12 @@ make
 |gcc|`6.3.0`|
 |GNU Make|`3.82.90`|
 
+#### Visual Studio Code Extension
+* C/C++
+* C++ Intellisense
+* Cmake
+* CMake Tools 
+
 ## Reference
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
 
