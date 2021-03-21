@@ -23,7 +23,7 @@ make
 #### Visual Studio Code Extension
 * C/C++
 * C++ Intellisense
-* Cmake
+* CMake
 * CMake Tools 
 
 ## Reference
