@@ -26,6 +26,11 @@ make
 * CMake
 * CMake Tools 
 
+#### Package
+|Name|Version|
+|-|-|
+|Eigen|3.3.9|
+
 ## Reference
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
 
