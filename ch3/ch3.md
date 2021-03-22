@@ -10,3 +10,7 @@
 
 ### Coordinate Transform
 * [coordinateTransform.cpp](coordinateTransform.cpp)
+
+### visualizeGeometry
+* [CMakeLists.txt](visualizeGeometry/CMakeLists.txt)
+* [visualizeGeometry.cpp](visualizeGeometry/visualizeGeometry.cpp)
