@@ -26,7 +26,7 @@ make
 * CMake
 * CMake Tools 
 
-Visual Studio Code Environment settings : [Link](.vscode/)
+Visual Studio Code Environment settings : [Link](.vscode/c_cpp_properties.json)
 
 #### Package
 |Name|Version|
