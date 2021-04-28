@@ -9,13 +9,7 @@ code of 14 lectures on visual SLAM 2nd
 
 ## Environment
 |IDE|`Visual Studio 2017`|
-|-|-|
-
-#### Visual Studio Code Extension
-* C/C++
-* C++ Intellisense
-* CMake
-* CMake Tools 
+|-|-| 
 
 #### Package
 |Name|Version|
