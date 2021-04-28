@@ -1,3 +1,0 @@
-C:/Users/ASUS/Desktop/SLAM_pratice/ch3/useGeometry/build/CMakeFiles/eigenGeometry.dir
-C:/Users/ASUS/Desktop/SLAM_pratice/ch3/useGeometry/build/CMakeFiles/edit_cache.dir
-C:/Users/ASUS/Desktop/SLAM_pratice/ch3/useGeometry/build/CMakeFiles/rebuild_cache.dir

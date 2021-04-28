@@ -1,2 +1,0 @@
-C:/MinGW/bin/ar.exe qc libhello.a CMakeFiles/hello.dir/libHelloSLAM.cpp.obj
-C:/MinGW/bin/ranlib.exe libhello.a
