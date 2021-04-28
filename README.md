@@ -6,27 +6,16 @@ code of 14 lectures on visual SLAM 2nd
 * [Chapter 3 : 三維空間剛體運動](ch3/ch3.md)
 
 ## Usage
-```shell
-mkdir build
-cd build
-cmake -G "Unix Makefiles" ../
-make
-```
 
 ## Environment
-|IDE|`Visual Studio Code`|
+|IDE|`Visual Studio 2017`|
 |-|-|
-|CMake|`3.20.0-rc5`|
-|gcc|`6.3.0`|
-|GNU Make|`3.82.90`|
 
 #### Visual Studio Code Extension
 * C/C++
 * C++ Intellisense
 * CMake
 * CMake Tools 
-
-Visual Studio Code Environment settings : [Link](.vscode/c_cpp_properties.json)
 
 #### Package
 |Name|Version|
