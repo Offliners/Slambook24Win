@@ -8,8 +8,7 @@ code of 14 lectures on visual SLAM 2nd
 ## Usage
 
 ## Environment
-|IDE|`Visual Studio 2017`|
-|-|-| 
+IDE : `Visual Studio 2017`
 
 ### Package
 |Name|Version|
@@ -24,8 +23,15 @@ code of 14 lectures on visual SLAM 2nd
 
 using `vcpkg`, detail [Link](https://github.com/Microsoft/vcpkg)
 ```shell
+git clone https://github.com/microsoft/vcpkg  // only first use
+.\vcpkg\bootstrap-vcpkg.bat                   // only first use
 cd "vcpkg root directory"
 .\vcpkg\vcpkg install [packages to install]
+```
+
+### Integrate for Visual Studio
+```shell
+.\vcpkg\vcpkg integrate install
 ```
 
 ### 
