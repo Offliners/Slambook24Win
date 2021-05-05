@@ -1,4 +1,4 @@
-# Slambook for Windows
+# Slambook2 for Windows
 code of 14 lectures on visual SLAM 2nd
 
 ## Environment
