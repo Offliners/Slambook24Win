@@ -11,7 +11,7 @@ code of 14 lectures on visual SLAM 2nd
 |IDE|`Visual Studio 2017`|
 |-|-| 
 
-#### Package
+### Package
 |Name|Version|
 |-|-|
 |eigen3:x64-windows|`3.3.9`|
@@ -19,6 +19,16 @@ code of 14 lectures on visual SLAM 2nd
 |pcl:x64-windows|`1.11.1#2`|
 |pangolin:x64-windows|`0.5#15`|
 |boost:x64-windows|`1.67.0`|
+
+### Package install
+
+using `vcpkg`, detail [Link](https://github.com/Microsoft/vcpkg)
+```shell
+cd "vcpkg root directory"
+.\vcpkg\vcpkg install [packages to install]
+```
+
+### 
 
 ## Reference
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
