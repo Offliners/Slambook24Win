@@ -1,8 +1,6 @@
 # SLAM4Win
 code of 14 lectures on visual SLAM 2nd
 
-## Usage
-
 ## Environment
 IDE : `Visual Studio 2017`
 
