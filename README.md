@@ -1,4 +1,4 @@
-# SLAM
+# SLAM4Win
 code of 14 lectures on visual SLAM 2nd
 
 ## Contents
