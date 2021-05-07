@@ -74,8 +74,8 @@ inline float GetPixelValue(const cv::Mat &img, float x, float y)
 
 int main()
 {
-	Mat img1 = imread(file_1, 0);
-	Mat img2 = imread(file_2, 0);
+	Mat img1 = imread(file_1, cv::IMREAD_COLOR);
+	Mat img2 = imread(file_2, cv::IMREAD_COLOR);
 
 	vector<KeyPoint> kp1;
 	Ptr<GFTTDetector> detector = GFTTDetector::create(500, 0.01, 20);
