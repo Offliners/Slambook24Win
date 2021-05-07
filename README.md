@@ -29,13 +29,13 @@ cd "vcpkg root directory"
 ```
 
 ## Solution for some error
-#### 'M_PI': undeclared identifier
+### 'M_PI': undeclared identifier
 add this definition n top of the code or `Project Properties -> C/C++ -> Preprocessor -> Preprocessor definitions`
 ```c++
 #define _USE_MATH_DEFINES
 ```
-#### Error: 'usleep' was not declared
-usleep is declared in `unistd.h`, but windows doesn't this library.
+### Error: 'usleep' was not declared
+usleep is declared in `unistd.h`, but windows doesn't provide this library.
 
 So, replace by
 ```c++
