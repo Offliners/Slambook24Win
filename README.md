@@ -28,7 +28,12 @@ cd "vcpkg root directory"
 .\vcpkg\vcpkg integrate install
 ```
 
-### 
+### Solution for some error
+#### 'M_PI': undeclared identifier
+add this definition n top of the code or project `Properties -> C/C++ -> Preprocessor -> Preprocessor definitions`
+```
+#define _USE_MATH_DEFINES
+```
 
 ## Reference
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
