@@ -72,8 +72,11 @@ for (int i1 = 0; i1 < desc1.size(); ++i1)  // Replace `size_t i1` by `int i1`
 ...
 ```
 
-### CV_FM_8POINT was not declared in this scope
+### Error: 'CV_FM_8POINT' was not declared in this scope
 Replace `CV_FM_8POINT` by `FM_8POINT`
+
+### Error: 'CV_LOAD_IMAGE_UNCHANGED' was not declared in this scope
+Replace `CV_LOAD_IMAGE_UNCHANGED` by `IMREAD_UNCHANGED`
 
 ## Reference
 * github : https://github.com/gaoxiang12/slambook2
