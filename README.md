@@ -89,7 +89,7 @@ image = imread(filename, cv::IMREAD_COLOR);    // correct
 ```
 
 ### Error: use of undefined type 'Eigen::LDLT'
-Eigen::LDLT need to include `Eigne` library
+Eigen::LDLT need to include `Eigne/Dense` library
 
 ## Reference
 * github : https://github.com/gaoxiang12/slambook2
