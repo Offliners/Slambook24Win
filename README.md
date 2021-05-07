@@ -39,8 +39,8 @@ usleep is declared in `unistd.h`, but windows doesn't provide this library.
 
 So, replace by
 ```c++
-#include <chrono>
-#include <thread>
+#include<chrono>
+#include<thread>
 ...
 std::this_thread::sleep_for(std::chrono::microseconds(usec));  // usec is time for sleeping in microsecond
 ```
@@ -54,6 +54,7 @@ example.exe argv[1] argv[2] ...      // execute the file with command line argum
 2. Right click the project and then click `Properties -> Debugging -> Command Arguments`, and then input parameters 
 
 ## Reference
+* github : https://github.com/gaoxiang12/slambook2
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
 
 ![Reference](https://github.com/Offliners/SLAM/blob/main/reference.png)
