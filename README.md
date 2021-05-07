@@ -1,5 +1,5 @@
 # Slambook2 for Windows
-code of 14 lectures on visual SLAM 2nd
+code of 14 lectures on visual SLAM 2nd built on Windows 10
 
 ## Environment
 IDE : `Visual Studio 2017`
