@@ -78,6 +78,9 @@ Replace `CV_FM_8POINT` by `FM_8POINT`
 ### Error: 'CV_LOAD_IMAGE_UNCHANGED' was not declared in this scope
 Replace `CV_LOAD_IMAGE_UNCHANGED` by `IMREAD_UNCHANGED`
 
+### Error: 'CV_BGR2GRAY' was not declared in this scope
+Replace `CV_BGR2GRAY` by `cv::COLOR_BGR2GRAY`
+
 ## Reference
 * github : https://github.com/gaoxiang12/slambook2
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
