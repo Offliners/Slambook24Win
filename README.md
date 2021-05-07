@@ -81,6 +81,13 @@ Replace `CV_LOAD_IMAGE_UNCHANGED` by `IMREAD_UNCHANGED`
 ### Error: 'CV_BGR2GRAY' was not declared in this scope
 Replace `CV_BGR2GRAY` by `cv::COLOR_BGR2GRAY`
 
+### Microsoft C++ exception: cv::Exception at memory location 0x...
+When load an image, replace number by `cv::IMREAD_COLOR` 
+```C++
+image = imread(filename, 0);                   // error
+image = imread(filename, cv::IMREAD_COLOR);    // correct
+```
+
 ## Reference
 * github : https://github.com/gaoxiang12/slambook2
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
