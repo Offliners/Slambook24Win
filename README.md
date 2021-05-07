@@ -54,6 +54,14 @@ example.exe argv[1] argv[2] ...      // execute the file with command line argum
 ```
 2. Right click the project and then click `Properties -> Debugging -> Command Arguments`, and then input parameters 
 
+### In chapter 6, Compile `g2oCurveFitting.cpp` occurs Error: ... must return a value
+Error
+```shell
+Error	C4716	'CurveFittingVertex::read': must return a value
+Error	C4716	'CurveFittingEdge::write': must return a value
+```
+Sol : Add `return true;` in those functions
+
 ## Reference
 * github : https://github.com/gaoxiang12/slambook2
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
