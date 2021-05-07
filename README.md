@@ -51,7 +51,7 @@ std::this_thread::sleep_for(std::chrono::microseconds(usec));  // usec is time f
 cd ...                               // cd directory of the exe file 
 example.exe argv[1] argv[2] ...      // execute the file with command line argument
 ```
-2. Right click the project and then click `Property-> Configuration Properties -> Debugging -> Command Arguments`, input parameters 
+2. Right click the project and then click `Properties -> Debugging -> Command Arguments`, and then input parameters 
 
 ## Reference
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
