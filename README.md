@@ -30,7 +30,7 @@ cd "vcpkg root directory"
 
 ## Solution for some error
 #### 'M_PI': undeclared identifier
-add this definition n top of the code or project `Properties -> C/C++ -> Preprocessor -> Preprocessor definitions`
+add this definition n top of the code or `Project Properties -> C/C++ -> Preprocessor -> Preprocessor definitions`
 ```
 #define _USE_MATH_DEFINES
 ```
