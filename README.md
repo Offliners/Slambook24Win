@@ -12,6 +12,7 @@ IDE : `Visual Studio 2017`
 |pcl:x64-windows|`1.11.1#2`|
 |pangolin:x64-windows|`0.5#15`|
 |boost:x64-windows|`1.67.0`|
+|ceres:x64-windows|2.0.0#4|
 
 ### Package install
 
