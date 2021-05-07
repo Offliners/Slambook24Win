@@ -54,8 +54,8 @@ example.exe argv[1] argv[2] ...      // execute the file with command line argum
 ```
 2. Right click the project and then click `Properties -> Debugging -> Command Arguments`, and then input parameters 
 
-### In chapter 6, Compile `g2oCurveFitting.cpp` occurs Error: ... must return a value
-Error
+### In chapter 6, Compiling `g2oCurveFitting.cpp` will occur Error: ... must return a value
+Errors like
 ```shell
 Error	C4716	'CurveFittingVertex::read': must return a value
 Error	C4716	'CurveFittingEdge::write': must return a value
