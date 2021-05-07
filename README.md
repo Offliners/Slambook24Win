@@ -62,6 +62,9 @@ Error	C4716	'CurveFittingEdge::write': must return a value
 ```
 Sol : Add `return true;` in those functions
 
+### Error: 'CV_LOAD_IMAGE_COLOR' was not declared
+Replace `CV_LOAD_IMAGE_COLOR` by `cv::IMREAD_COLOR`
+
 ## Reference
 * github : https://github.com/gaoxiang12/slambook2
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
