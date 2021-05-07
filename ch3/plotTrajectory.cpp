@@ -89,7 +89,7 @@ void DrawTrajectory(vector<Isometry3d, Eigen::aligned_allocator<Isometry3d>> pos
 			glEnd();
 		}
 		pangolin::FinishFrame();
-		this_thread::sleep_for(chrono::microseconds(5));
+		this_thread::sleep_for(chrono::microseconds(5000));
 		// usleep(5000);
 	}
 }
