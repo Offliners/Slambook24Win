@@ -44,6 +44,15 @@ So, replace by
 ...
 std::this_thread::sleep_for(std::chrono::microseconds(usec));  // usec is time for sleeping in microsecond
 ```
+
+### How to read command line argument with visual studio
+1. build the project to generate the exe file, then use cmd to execute the file
+```shell
+cd ...                               // cd directory of the exe file 
+example.exe argv[1] argv[2] ...      // execute the file with command line argument
+```
+2. Right click the project and then click `Property-> Configuration Properties -> Debugging -> Command Arguments`, input parameters 
+
 ## Reference
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
 
