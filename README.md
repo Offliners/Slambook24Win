@@ -88,6 +88,9 @@ image = imread(filename, 0);                   // error
 image = imread(filename, cv::IMREAD_COLOR);    // correct
 ```
 
+### Error: use of undefined type 'Eigen::LDLT'
+Eigen::LDLT need to include `Eigne` library
+
 ## Reference
 * github : https://github.com/gaoxiang12/slambook2
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
