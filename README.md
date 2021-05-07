@@ -28,7 +28,7 @@ cd "vcpkg root directory"
 .\vcpkg\vcpkg integrate install
 ```
 
-### Solution for some error
+## Solution for some error
 #### 'M_PI': undeclared identifier
 add this definition n top of the code or project `Properties -> C/C++ -> Preprocessor -> Preprocessor definitions`
 ```
