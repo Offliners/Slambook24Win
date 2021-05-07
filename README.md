@@ -31,10 +31,18 @@ cd "vcpkg root directory"
 ## Solution for some error
 #### 'M_PI': undeclared identifier
 add this definition n top of the code or `Project Properties -> C/C++ -> Preprocessor -> Preprocessor definitions`
-```
+```c++
 #define _USE_MATH_DEFINES
 ```
-
+#### Error: 'usleep' was not declared
+usleep is declared in `unistd.h`, but windows doesn't this library.
+So, replace by
+```c++
+#include <chrono>
+#include <thread>
+...
+std::this_thread::sleep_for(std::chrono::microseconds(usec));  // usec is time for sleeping in microsecond
+```
 ## Reference
 * SLAM視覺十四講：雙倍內容強化版 (`ISBN：9789865501044`)
 
