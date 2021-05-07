@@ -62,7 +62,7 @@ Error	C4716	'CurveFittingEdge::write': must return a value
 ```
 Sol : Add `return true;` in those functions
 
-### Error: 'CV_LOAD_IMAGE_COLOR' was not declared
+### Error: 'CV_LOAD_IMAGE_COLOR' was not declared in this scope
 Replace `CV_LOAD_IMAGE_COLOR` by `cv::IMREAD_COLOR`
 
 ### In chapter 7, Error: conversion from 'size_t' to 'int' requires a narrowing conversion
@@ -72,6 +72,8 @@ for (int i1 = 0; i1 < desc1.size(); ++i1)  // Replace `size_t i1` by `int i1`
 ...
 ```
 
+### CV_FM_8POINT was not declared in this scope
+Replace `CV_FM_8POINT` by `FM_8POINT`
 
 ## Reference
 * github : https://github.com/gaoxiang12/slambook2
