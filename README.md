@@ -13,6 +13,7 @@ IDE : `Visual Studio 2017`
 |pangolin:x64-windows|`0.5#15`|
 |boost:x64-windows|`1.67.0`|
 |ceres:x64-windows|`2.0.0#4`|
+|opencv4:x64-windows|`4.5.1`|
 
 ### Package install
 
