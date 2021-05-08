@@ -26,7 +26,7 @@ cd "vcpkg root directory"
 
 ### Integrate for Visual Studio
 ```shell
-.\vcpkg\vcpkg integrate install
+.\vcpkg\vcpkg integrate project
 ```
 
 ## Solution for some error
