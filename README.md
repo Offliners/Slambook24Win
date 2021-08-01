@@ -14,6 +14,8 @@ IDE : `Visual Studio 2017`
 |boost:x64-windows|`1.67.0`|
 |ceres:x64-windows|`2.0.0#4`|
 |opencv4:x64-windows|`4.5.1`|
+|sophus:x64-windows|`1.0.0-6`|
+|gtest:x64-windows|`1.10.0#4`|
 
 ### Package install
 
